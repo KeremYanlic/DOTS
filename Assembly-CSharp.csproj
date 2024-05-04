@@ -55,7 +55,7 @@
     <UnityVersion>2022.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Users/keremyanlic/Desktop/UnityProjects/ECS/ECS/Library/PackageCache/com.unity.entities@1.2.0/Unity.Entities/SourceGenerators/AspectGenerator.dll" />
@@ -72,6 +72,7 @@
     <Analyzer Include="/Users/keremyanlic/Desktop/UnityProjects/ECS/ECS/Library/PackageCache/com.unity.entities@1.2.0/Unity.Entities/SourceGenerators/SystemGenerator.Common.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/SizeAuthoring.cs" />
     <Compile Include="Assets/Scripts/SpawnParametersAuthoring.cs" />
     <Compile Include="Assets/Scripts/Systems/MovementSystem.cs" />
     <Compile Include="Assets/Scripts/Component/Speed.cs" />
@@ -79,7 +80,9 @@
     <Compile Include="Assets/Scripts/SpeedAuthoring.cs" />
     <Compile Include="Assets/IRepository.cs" />
     <Compile Include="Assets/Repository.cs" />
+    <Compile Include="Assets/Scripts/Systems/SizeSystem.cs" />
     <Compile Include="Assets/Scripts/Component/SpawnParameters.cs" />
+    <Compile Include="Assets/Scripts/Component/Size.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -958,12 +961,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.Entities.Build.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Entities.Hybrid">
-      <HintPath>Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
