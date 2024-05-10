@@ -15,6 +15,7 @@ public partial class SpawningSystem : SystemBase
         SpawnParameters parameters = SystemAPI.GetSingleton<SpawnParameters>();
         LocalTransform localTransform;
 
+        int total = 0;
         for (int i = 0; i < parameters.gridWidth; i++)
         {
             for (int j = 0; j < parameters.gridHeight; j++)
@@ -30,6 +31,12 @@ public partial class SpawningSystem : SystemBase
                     Scale = 1f
                 };
                 EntityManager.SetComponentData(newEntity, localTransform);
+
+                total++;
+                if(total % 3 == 0)
+                {
+                    EntityManager.AddComponent<CapsuleTag>(newEntity);
+                }
             }
         }
 

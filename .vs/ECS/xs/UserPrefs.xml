@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{5506A551-24D0-3CFD-3B82-8416CD77E314}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Systems/SpawningSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Component/CapsuleTag.cs">
     <Files>
       <File FileName="Assets/Scripts/Component/Size.cs" Line="8" Column="27" />
       <File FileName="Assets/Scripts/SizeAuthoring.cs" />
-      <File FileName="Assets/Scripts/Systems/SizeSystem.cs" Line="12" Column="6" />
-      <File FileName="Assets/Scripts/Systems/MovementSystem.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Component/SpawnParameters.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SpawnParametersAuthoring.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Systems/SpawningSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Systems/SizeSystem.cs" />
+      <File FileName="Assets/Scripts/Systems/MovementSystem.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/Component/SpawnParameters.cs" />
+      <File FileName="Assets/Scripts/SpawnParametersAuthoring.cs" />
+      <File FileName="Assets/Scripts/Systems/SpawningSystem.cs" />
+      <File FileName="Assets/Scripts/Component/CapsuleTag.cs" Line="8" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8cf08dcb-b1ef-46ff-83e1-bada6794075b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="21ab33e6-4c26-4659-b8a1-cf3961f36e7d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

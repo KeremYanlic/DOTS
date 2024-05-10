@@ -83,6 +83,7 @@
     <Compile Include="Assets/Scripts/Systems/SizeSystem.cs" />
     <Compile Include="Assets/Scripts/Component/SpawnParameters.cs" />
     <Compile Include="Assets/Scripts/Component/Size.cs" />
+    <Compile Include="Assets/Scripts/Component/CapsuleTag.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
