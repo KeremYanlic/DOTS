@@ -13,7 +13,9 @@ public partial class SizeSystem : SystemBase
         
         float deltaTime = World.Time.DeltaTime;
         
-        Entities.ForEach((ref LocalTransform localTransform, in Size size) =>
+        Entities.
+            WithAll<LocalTransform, Size, CapsuleTag>().
+            ForEach((ref LocalTransform localTransform, in Size size,in CapsuleTag capsuleTag) =>
         {
             localTransform.Scale += size.sizeValue * deltaTime;
         }).Run();
