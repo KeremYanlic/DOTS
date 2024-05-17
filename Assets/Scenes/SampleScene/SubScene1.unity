@@ -155,7 +155,7 @@ MonoBehaviour:
   entityPrefab: {fileID: 8258157054226993698, guid: d9b1a1b08a81b4f1aa8fb244e7ed5024, type: 3}
   gridWidth: 5
   gridHeight: 5
-  spacing: 1
+  spacing: 2
 --- !u!4 &26887029
 Transform:
   m_ObjectHideFlags: 0

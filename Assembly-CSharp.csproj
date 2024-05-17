@@ -73,17 +73,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/SizeAuthoring.cs" />
+    <Compile Include="Assets/Scripts/Tags/ScratchDiskSytemTag.cs" />
     <Compile Include="Assets/Scripts/SpawnParametersAuthoring.cs" />
     <Compile Include="Assets/Scripts/Systems/MovementSystem.cs" />
     <Compile Include="Assets/Scripts/Component/Speed.cs" />
+    <Compile Include="Assets/Scripts/Systems/BufferSystem.cs" />
+    <Compile Include="Assets/Scripts/Systems/ScratchDiskSystem.cs" />
+    <Compile Include="Assets/Scripts/Component/DeinitializeComponent.cs" />
     <Compile Include="Assets/Scripts/Systems/SpawningSystem.cs" />
     <Compile Include="Assets/Scripts/SpeedAuthoring.cs" />
+    <Compile Include="Assets/Scripts/Tags/CapsuleTag.cs" />
     <Compile Include="Assets/IRepository.cs" />
     <Compile Include="Assets/Repository.cs" />
     <Compile Include="Assets/Scripts/Systems/SizeSystem.cs" />
+    <Compile Include="Assets/Scripts/Systems/SumBuffer.cs" />
     <Compile Include="Assets/Scripts/Component/SpawnParameters.cs" />
     <Compile Include="Assets/Scripts/Component/Size.cs" />
-    <Compile Include="Assets/Scripts/Component/CapsuleTag.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
